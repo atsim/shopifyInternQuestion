@@ -59,4 +59,4 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 // Port 8080 for Google App Engine
 app.set('port', process.env.PORT || 3000);
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
