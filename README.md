@@ -26,8 +26,8 @@ The baseurl of the marketplace is: *shopifyantonytsim.herokuapp.com*
 * **Sample Calls:**
 
   ```javascript
-curl 'shopifyantonytsim.herokuapp.com/products'
-curl 'shopifyantonytsim.herokuapp.com/products?stock=1'
+    curl 'shopifyantonytsim.herokuapp.com/products'
+    curl 'shopifyantonytsim.herokuapp.com/products?stock=1'
   ```
 
 **Show specific product**
@@ -51,7 +51,7 @@ curl 'shopifyantonytsim.herokuapp.com/products?stock=1'
 * **Sample Call:**
 
   ```javascript
-curl 'shopifyantonytsim.herokuapp.com/products/2'
+    curl 'shopifyantonytsim.herokuapp.com/products/2'
   ```
 
 **Purchase a product**
@@ -75,7 +75,7 @@ curl 'shopifyantonytsim.herokuapp.com/products/2'
 * **Sample Call:**
 
   ```javascript
-curl --data "" 'shopifyantonytsim.herokuapp.com/purchase?productid=11'
+    curl --data "" 'shopifyantonytsim.herokuapp.com/purchase?productid=11'
   ```
 
 **Show contents of cart**
@@ -99,7 +99,7 @@ curl --data "" 'shopifyantonytsim.herokuapp.com/purchase?productid=11'
 * **Sample Call:**
 
   ```javascript
-curl 'shopifyantonytsim.herokuapp.com/cart?cartid=2'
+    curl 'shopifyantonytsim.herokuapp.com/cart?cartid=2'
   ```
 
 **Create new cart**
@@ -117,7 +117,7 @@ curl 'shopifyantonytsim.herokuapp.com/cart?cartid=2'
 * **Sample Call:**
 
   ```javascript
-curl --data "" 'shopifyantonytsim.herokuapp.com/cart'
+    curl --data "" 'shopifyantonytsim.herokuapp.com/cart'
   ```
 
 **Add to cart**
@@ -143,7 +143,7 @@ curl --data "" 'shopifyantonytsim.herokuapp.com/cart'
 * **Sample Call:**
 
   ```javascript
-curl --data "" 'shopifyantonytsim.herokuapp.com/addtocart?cartid=5&productid=12'
+    curl --data "" 'shopifyantonytsim.herokuapp.com/addtocart?cartid=5&productid=12'
   ```
 
 **Check out cart**
@@ -167,5 +167,5 @@ curl --data "" 'shopifyantonytsim.herokuapp.com/addtocart?cartid=5&productid=12'
 * **Sample Call:**
 
   ```javascript
-curl --data "" 'shopifyantonytsim.herokuapp.com/checkout?cartid=2'
+    curl --data "" 'shopifyantonytsim.herokuapp.com/checkout?cartid=2'
   ```
